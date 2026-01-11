@@ -5,10 +5,12 @@
 
 .overlay-image {
   position: absolute; 
-  top: 10rem;          
-  left: 34rem;         
-  width: 50rem;
-  height: 57rem;   
-  background-color: white;    
-  transform: rotate(70deg);
+  top: -1.6rem;          
+  left: 35.8rem;         
+  width: 38.5rem;
+  height: 57.4rem;   
+  background-color: rgb(54, 54, 58);    
+  transform: rotate(70.5deg);
+
+  border-radius: 20px;
 }
