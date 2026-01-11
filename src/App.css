@@ -4,13 +4,13 @@
 }
 
 .overlay-image {
-  top: -1.6rem;          
-  left: 35.8rem;         
-  width: 38.5rem;
-  height: 57.4rem;   
-  background-color: rgb(54, 54, 58);    
-  transform: rotate(70.5deg);
-
+  position: absolute;
+  top: 6rem;          
+  left: 26.1rem;         
+  width: 57.5rem;
+  height: 40.4rem;      
+  transform: rotate(-20.5deg);
+  z-index: 100;
   border-radius: 20px;
 }
 
