@@ -2,17 +2,19 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import backgroundImg from './assets/background.png'
+import overlayImg from './assets/webcraft.png'
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <>
       <div className="image-container">
-        <img className="background" src= "public\assets\background.png"/>
-        <img  className="overlay-image" src="public\assets\webcraft.png"/>
+        <img className="background" src={backgroundImg} alt="background" />
+        <img className="overlay-image" src={overlayImg} alt="overlay" />
       </div>
-      
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
       <div className="topnav" id="myTopnav">
         <a href="#home" className="active">Home</a>
@@ -29,7 +31,7 @@ function App() {
       </div>
     </>
   )
-  
+
 }
 
 export default App
