@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div className="image-container">
-        <img className="background" src= "src\assets\background.png"/>
-        <img  className="overlay-image" src="src\assets\webcraft.png"/>
+        <img className="background" src= "public\assets\background.png"/>
+        <img  className="overlay-image" src="public\assets\webcraft.png"/>
       </div>
       
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
