@@ -8,7 +8,12 @@ function App() {
 
   return (
     <>
-      <img className="background" src= "src\assets\background.png"/>
+
+      <div class="image-container">
+        <img className="background" src= "src\assets\background.png"/>
+        <div  className="overlay-image"/>
+      </div>
+
     </>
   )
 }
